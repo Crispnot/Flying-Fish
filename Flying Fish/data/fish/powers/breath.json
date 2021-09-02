@@ -1,0 +1,16 @@
+{
+    "type": "origins:stacking_status_effect",
+     "min_stacks": 1,
+     "max_stacks": 3,
+     "duration_per_stack": 11,
+     "effect": {
+         "effect": "minecraft:water_breathing",
+         "duration": 11,
+         "amplifier": 15,
+         "is_ambient": true,
+         "show_particles": false,
+         "show_icon": false
+     },
+     "name": "Aqua Lung",
+     "description": "As you are one with the water your lungs are accustomed to breathing waters air"
+  }

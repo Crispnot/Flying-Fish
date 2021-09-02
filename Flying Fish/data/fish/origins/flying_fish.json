@@ -1,0 +1,18 @@
+{
+	"powers": [
+		"origins:swim_speed",
+		"origins:water_vision",
+		"origins:elytra",
+		"origins:fragile",
+		"fish:breath",
+		"fish:boost",
+		"fish:skin",
+		"fish:spawn",
+		"fish:size"
+	],
+	"icon": "minecraft:cod",
+	"order": 10,
+	"impact": 2,
+	"name": "Flying Fish",
+	"description": "A fish with wings!"
+}

@@ -1,0 +1,31 @@
+{
+    "type": "origins:active_self",
+    "cooldown": 100,
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:add_velocity",
+                "space": "local",
+                "set": false,
+                "z": 2.6
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "particle minecraft:smoke ~ ~5 ~ 2 2 2 0 11 force"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:swimming"
+    },
+    "description": "You swim through the water at high speed",
+    "name": "Water Boost",
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+        "bar_index": 15
+    },
+    "key": "secondary"
+}

@@ -1,0 +1,56 @@
+{
+	"type": "origins:action_on_callback",
+	"entity_action_added": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.head with minecraft:leather_helmet{display:{Name:'{\"text\":\"Fish Helmet\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.chest with minecraft:leather_chestplate{display:{Name:'{\"text\":\"Fish Chestplate\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.legs with minecraft:leather_leggings{display:{Name:'{\"text\":\"Fish Leggings\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.feet with minecraft:leather_boots{display:{Name:'{\"text\":\"Fish Boots\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		}
+	]
+	},
+	"entity_action_respawned": { 
+		"type": "origins:and",
+		"actions": [
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.head with minecraft:leather_helmet{display:{Name:'{\"text\":\"Fish Helmet\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.chest with minecraft:leather_chestplate{display:{Name:'{\"text\":\"Fish Chestplate\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.legs with minecraft:leather_leggings{display:{Name:'{\"text\":\"Fish Leggings\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		},
+		{
+			"type": "origins:execute_command",
+			"command": "item replace entity @s armor.feet with minecraft:leather_boots{display:{Name:'{\"text\":\"Fish Boots\"}'},Enchantments:[{id:\"minecraft:binding_curse\",lvl:1s},{id:\"minecraft:vanishing_curse\",lvl:1s},{id:\"minecraft:protection\",lvl:2s}],HideFlags:33,Unbreakable:1b} 1",
+			"permission_level": 4
+		}
+	]
+	},
+	"execute_chosen_when_orb": true,
+	"name": "Fishy Skin",
+	"description": "Your not shaped right to wear armor"
+}
